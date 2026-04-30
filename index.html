@@ -3,56 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal academic website of He Zhao, master's student in Ethnology at Minzu University of China." />
+  <meta name="description" content="He Zhao is a master's student in Ethnology at Minzu University of China. His work engages historical sociology, cultural sociology, political sociology, sociology of the arts, and computational social science." />
   <title>He Zhao</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="page">
     <header class="masthead" id="top">
-      <div class="intro-text">
-        <h1>He Zhao</h1>
-        <p class="chinese-name">赵鹤</p>
-        <p>
-          I am a master's student in Ethnology at <a href="https://www.muc.edu.cn/">Minzu University of China</a>. My work engages historical sociology, cultural sociology, political sociology, sociology of the arts, memory studies, social movements, political economy, social theory, and computational social science.
-        </p>
-        <p>
-          I received my Bachelor of Laws in Sociology from Minzu University of China, with minors in Anthropology and Archaeology. Methodologically, I work with comparative historical methods, ethnography, oral history, machine learning, computational text analysis, and bibliometric analysis.
-        </p>
-        <p>
-          You can access a version of my CV <a href="assets/cv/ZHAO_He_CV.pdf">here</a> and reach me at <a href="mailto:flaneurzh@gmail.com">flaneurzh@gmail.com</a>. Below, you can find out about some of my work.
-        </p>
+      <div class="identity">
+        <h1>He Zhao <span>赵鹤</span></h1>
+        <div class="bio" aria-label="Biography">
+          <p>
+            I am a master's student in Ethnology at <a href="https://www.muc.edu.cn/">Minzu University of China</a>. My work engages historical sociology, cultural sociology, political sociology, sociology of the arts, memory studies, political economy, social theory, and computational social science.
+          </p>
+          <p>
+            I received my Bachelor of Laws in Sociology from Minzu University of China, with minors in Anthropology and Archaeology. I work with comparative historical methods, ethnography, oral history, computational text analysis, and bibliometric analysis.
+          </p>
+          <p>
+            You can access a version of my CV <a href="assets/cv/ZHAO_He_CV.pdf">here</a> and reach me at <a href="mailto:flaneurzh@gmail.com">flaneurzh@gmail.com</a>. Below, you can find out about some of my work.
+          </p>
+        </div>
       </div>
-      <aside class="profile-side" aria-label="Profile links">
-        <img class="portrait" src="assets/img/profile-placeholder.svg" alt="Portrait of He Zhao" />
+
+      <aside class="portrait-panel" aria-label="Portrait and profile links">
+        <img class="portrait" src="assets/img/profile-photo.svg" alt="Portrait of He Zhao" />
         <nav class="icon-links" aria-label="Profile links">
-          <a href="https://scholar.google.com/citations?hl=zh-CN&user=yYWbYpsAAAAJ" aria-label="Google Scholar"><span class="icon scholar">GS</span></a>
-          <a href="mailto:flaneurzh@gmail.com" aria-label="Email"><span class="icon email">@</span></a>
-          <a href="https://bsky.app/profile/flaneurzh.bsky.social" aria-label="Bluesky"><span class="icon bluesky">BS</span></a>
-          <a href="https://github.com/flaneur" aria-label="GitHub"><span class="icon github">GH</span></a>
+          <a href="https://scholar.google.com/citations?hl=zh-CN&user=yYWbYpsAAAAJ" aria-label="Google Scholar" title="Google Scholar">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1.8 10.4 12 18l10.2-7.6L12 3Zm0 2.45 6.8 5.05L12 15.55 5.2 10.5 12 5.45Zm-5.2 8.1v3.1c0 2.35 2.35 4.25 5.2 4.25s5.2-1.9 5.2-4.25v-3.1L12 17.4l-5.2-3.85Z"/></svg>
+          </a>
+          <a href="mailto:flaneurzh@gmail.com" aria-label="Email" title="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5h17A1.5 1.5 0 0 1 22 6.5v11A1.5 1.5 0 0 1 20.5 19h-17A1.5 1.5 0 0 1 2 17.5v-11A1.5 1.5 0 0 1 3.5 5Zm.7 2 7.8 5.3L19.8 7H4.2Zm-.2 10h16V8.9l-8 5.45L4 8.9V17Z"/></svg>
+          </a>
+          <a href="https://bsky.app/profile/flaneurzh.bsky.social" aria-label="Bluesky" title="Bluesky">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.1 4.2C8.45 5.95 11 9.55 12 11.45c1-1.9 3.55-5.5 5.9-7.25 1.7-1.28 4.45-2.27 4.45.88 0 .63-.36 5.28-.57 6.04-.73 2.64-3.38 3.31-5.74 2.9 4.12.7 5.17 3.03 2.91 5.36-4.28 4.42-6.16-1.1-6.64-2.52-.09-.26-.13-.38-.31-.38s-.22.12-.31.38c-.48 1.42-2.36 6.94-6.64 2.52-2.26-2.33-1.21-4.66 2.91-5.36-2.36.41-5.01-.26-5.74-2.9-.21-.76-.57-5.41-.57-6.04 0-3.15 2.75-2.16 4.45-.88Z"/></svg>
+          </a>
+          <a href="https://github.com/flaneur" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .8a11.2 11.2 0 0 0-3.55 21.83c.56.1.77-.24.77-.54v-2.05c-3.13.68-3.79-1.34-3.79-1.34-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1 2.63.71 3.27-.89.1-.73.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.57 0-1.23.44-2.24 1.16-3.03-.12-.28-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.16A10.68 10.68 0 0 1 12 4.33c.96 0 1.92.13 2.82.38 2.15-1.46 3.1-1.16 3.1-1.16.61 1.55.23 2.7.11 2.98.72.79 1.16 1.8 1.16 3.03 0 4.33-2.64 5.29-5.15 5.57.4.35.76 1.04.76 2.1v3.1c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
+          </a>
         </nav>
       </aside>
     </header>
 
     <section class="section" id="publications">
       <h2>PUBLICATIONS</h2>
+
       <article class="publication">
         <h3>The Mental Structures and the “Class” Tastes Behind the Reinventing Historical Imagination</h3>
         <p class="citation">
           ZHAO He. 2026. “The Mental Structures and the ‘Class’ Tastes Behind the Reinventing Historical Imagination: The Adaptation of the Peking Opera <em>The Lucky Purse</em> During the ‘Xiqu Reform’ in the 1950s” [重塑历史想象中的心智结构与“阶级”趣味——20世纪50年代“戏改”期间京剧《锁麟囊》的改编]. <em>Open Times</em> 45(3).
         </p>
-        <p>
-          This article studies the adaptation of the Peking Opera <em>The Lucky Purse</em> during the “Xiqu Reform” of the 1950s, focusing on historical imagination, mental structures, and the political-cultural reconstruction of artistic taste.
-        </p>
+        <details>
+          <summary>Abstract</summary>
+          <p>
+            This article takes the adaptation of the Peking Opera <em>The Lucky Purse</em> during the 1950s “<em>Xiqu</em> Reform” as a case study to analyze the evolution of ideas and concrete actions of Peking opera artists amid the transformation of dominant cognitive schemas through the lens of Cheng Yanqiu’s specific circumstances. This article introduces the concept of “artist persona” to encompass the embodied disposition system of Peking opera artists, including field, moral-emotional disposition, and professional knowledge systems. Cheng’s cognitive-action practice context reveals the dynamic co-construction of the “artist persona” with historical situations. The adapted <em>The Lucky Purse</em> regarded as a “flawed work” due to its failure to reconcile the oppositions between “specific-situated-nuanced-habitus” theory (universal human nature) and “class-habitus” theory, impermanence theory and exploitation theory, and the cyclical causality of reincarnation versus a linear progressive view of history. This research suggests that the reflections, adaptations, and struggles of individuals in bearing structural weight precisely highlight the inherent agential energy of actors in the process of creating and writing history.
+          </p>
+        </details>
       </article>
+
       <article class="publication">
         <h3>Peasant Action, Agency-Social Structure, and the Construction of Specialty Industries</h3>
         <p class="citation">
-          ZHAO He. 2025. “Peasant Action and Agency-Social Structure and the Construction of Specialty Industries: A Case Study of the Developmental Process of ‘Wuchang Rice’” [农民行动、能动性—社会结构与特色产业建构——“五常大米”发展过程的个案研究]. <em>Rural China: An International Journal of History and Social Science</em> 22(1): 93–130. DOI: <a href="https://doi.org/10.1163/22136746-12341327">10.1163/22136746-12341327</a>.
+          ZHAO He. 2025. “Peasant Action, Agency-Social Structure, and the Construction of Specialty Industries: A Case Study of the Developmental Process of ‘Wuchang Rice’” [农民行动、能动性—社会结构与特色产业建构——“五常大米”发展过程的个案研究]. <em>Rural China: An International Journal of History and Social Science</em> 22(1): 93–130. DOI: <a href="https://doi.org/10.1163/22136746-12341327">10.1163/22136746-12341327</a>.
         </p>
-        <p>
-          This study examines the developmental process of Wuchang Rice and analyzes the interaction between peasant agency, social structure, local government, agricultural science and technology, and market formation.
-        </p>
+        <details>
+          <summary>Abstract</summary>
+          <p>
+            This paper examines the collective actions and business strategies of peasants in the Wuchang region (of Heilongjiang) as the rice industry transitioned from large-scale production to brand development. The study finds that the formation of specialty industries is not merely the product of state-led, top-down interventions nor the result of local endogenous forces operating without state support; rather, it is a process of intertwined development. Even during the era of “politics dominating economics,” peasants exerted influence by controlling production volumes, thereby indirectly pressuring the state to adjust policies. As the market emerged, peasants also looked to the state to address new structural issues. The logic of peasant action is closely related to the space available for such action, and peasant agency is not merely a form of “resistance from the weak,” but rather a strategic form of interaction. In certain contexts, the spontaneous actions of individual peasants can also play a catalytic role. The developmental history of “Wuchang rice” is, in fact, a history of the evolving relationship between peasant agency and social structures. The key to fostering positive interaction among the relevant stakeholders lies in achieving a balance between these two forces.
+          </p>
+        </details>
       </article>
     </section>
 

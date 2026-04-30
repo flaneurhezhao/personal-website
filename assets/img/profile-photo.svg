@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 460" role="img" aria-labelledby="title desc">
+  <title id="title">Temporary academic portrait for He Zhao</title>
+  <desc id="desc">A temporary minimalist portrait placeholder to be replaced by a real or cartoon portrait.</desc>
+  <rect width="360" height="460" fill="#f4f4f4"/>
+  <rect width="360" height="460" fill="#ffffff" opacity="0.35"/>
+  <circle cx="180" cy="145" r="70" fill="#d8d8d8"/>
+  <path d="M82 415c14-110 56-172 98-172s84 62 98 172" fill="#d8d8d8"/>
+  <text x="180" y="438" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#666">He Zhao</text>
+</svg>
