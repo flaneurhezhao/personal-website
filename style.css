@@ -145,10 +145,10 @@ h2 {
 
 h3 {
   margin: 0 0 7px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Cambria, Georgia, "Times New Roman", Times, serif;
   font-size: 1.27rem;
   font-weight: 600;
-  letter-spacing: -0.012em;
+  letter-spacing: 0;
 }
 
 .citation {
