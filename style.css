@@ -129,7 +129,7 @@ a:hover {
 
 h2 {
   margin: 0 0 30px;
-  font-size: 1.45rem;
+  font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.115em;
 }
@@ -145,10 +145,10 @@ h2 {
 
 h3 {
   margin: 0 0 7px;
-  font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.27rem;
   font-weight: 600;
-  letter-spacing: 0;
+  letter-spacing: -0.012em;
 }
 
 .citation {
